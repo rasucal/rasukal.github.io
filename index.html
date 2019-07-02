@@ -1,250 +1,103 @@
-body{
-	margin: 0;
- 	font-family:Courgette;
-}
-
-
-
-.container{
-	width: 100%;
-	height: 750px;
-}
-
-header{
-	height: 100px;
-	width: 100%;
-	background-color: #ffff;
-	line-height: 50px;
-	vertical-align: middle;
-	position: fixed;
-}
-
-
-.header-left{
-	float: left;
-	display: inline-block;
-	margin-left: 65px;
-}
-
-
-.header-left p{
-	display: inline-block;
-	background-color: #D9F2B4;
-	border-radius: 50px 3px;
-
-}
-
-
-
-.header-right{
-	float: right;
-	margin-right: 65px;
-}
-
-.header-right p{
-	background-color: #D9F2B4;
-	display: inline-block;
-	border-radius: 50px 3px;
-}
-
-
-.top-container{
-	width: 100%;
-	height: 800px;
-}
-
-
-.top-wrapper{
-	text-align: center;
-	padding-top: 300px;
-	background-image:url('HP01.jpeg');
-	background-size: cover;
-
-}
-
-.intro-wrapper{
-	text-align: center;
-}
-
-.intro-wrapper p{
-	padding:310px;
-	font-size: 20px;
-}
-
-.clover{
-	width:100%;
-}
-
-
-.skill{
-	width: 100%;
-	text-align: center;
-
-}
-
-.skills{
-	float:left;
-	width: 50%;
-	display: inline-block;
-	margin-top: 30px;
-	text-align: center;
-
-}
-
-.html{
-
-  	padding-top:15px;
-}
-
-.html :not(p){
-	font-size: 75px;
-}
-
-.html p{
-	border-radius: 50px 3px;
-
-}
-.css{
-  border-radius: 50% 50% 50% 0;
-  padding-top:15px;
-}
-.css :not(p){
-	font-size: 75px;
-}
-.js {
-  border-radius: 50% 0 50% 50%;
-  padding-top:15px;
-}
-
-.js :not(p){
-	font-size: 75px;
-}
-.php {
-  border-radius: 0 50% 50% 50%;
-  padding-top:15px;
-}
-.php :not(p){
-	font-size: 75px;
-}
-
-
-
-
-
-
-.hobby-wrapper{
-	width: 100%;
-	height: 500px;
-	text-align: center;
-}
-
-.hobby h1{
-	margin-bottom: 20px;
-	margin-top:30px;
-}
-.hobbys{
-		height: 700px;
-		width: 75%;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		border-radius: 50px;
-
-}
-.soccer{
-	background-image: url('HP02.jpeg');
-	background-size: cover;
-	display:inline-block;
-	text-align: left;
-	opacity: 0.9;
-}
-
-.soccer h3{
-	margin-left: 20px;
-	color: black;
-}
- .soccer p{
- 	margin-left: 30px;
- 	color: black;
-
- }
-
-
-.snow{
-	background-image: url('HP11.jpeg');
-	background-size: cover;
-	display:none;
-	text-align: left;
-	opacity: 0.9;
-
-}
-.snow h3{
-	margin-left: 20px;
-	color: black;
-}
-
-.snow p{
-	margin-left: 30px;
-	color: black;
-}
-
-.walk{
-	background-image: url('HP08.jpeg');
-	background-size: cover;
-	display: none;
-	text-align: left;
-	opacity: 0.9;
-}
-
-.walk h3{
-	margin-left: 20px;
-	color: white;
-
-}
-
-.walk p{
-	margin-left: 30px;
-	color: white;
-}
-
-
-
-.fa-angle-double-right{
-	position:relative;
-	top: 200px;
-	left:90%;
-}
-
-.fa-angle-double-left{
-	position:relative;
-	top: 200px;
-	left:5%;
-
-}
-
-.fas{
-	display: inline-block;
-	border: none;
-	padding: 10px;
-	font-size: 30px;
-	background-color:white;
-	border-radius: 30%;
-	cursor: pointer;
-	 box-shadow: 0px 5px black;
-}
-
-.fas:active{
-  box-shadow: none;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>This is Rasukalu</title>
+	<link rel="stylesheet"  href="HP.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	
+	<script src="HP.js"></script>
+</head>
+<body>
+	<header>
+		<div class="header-container">
+			<div class="header-left">
+				<a href="https://twitter.com/tymy_nl?lang=ja"><p>Rasukalu</p></a>
+			</div>
+			<div class="header-right">
+				<p>about</p>
+			</div>
+		</div>
+	</header>
+	<div class="top-wrapper">
+		<div class="top-container">
+			<h1>Rasukalu</h1>
+			<h3>- This is me -</h3>
+		</div>
+
+	</div>
+
+	<div class="intro-wrapper">
+		<div class="container">
+			<p>初めまして。<br/>
+			97年生まれ、茨城県出身のRasucaluです<br/>
+			え？なんでRasukaluかって？<br/>
+			本名出すのもアレなんでゲームで使ってる名前使おうかなって。<br/>
+			どうぞ仲良くしてください</p>
+		</div>
+	</div>
+
+	<div class="clover">
+	  	<div class="container">
+	  		<div class="skill">
+	  			<h1>スキル</h1>
+	  		</div>	
+	  		<div class="skills html">
+	  			<i class="fab fa-html5"></i>
+	  			<p>HTML</p>
+	  		</div>
+	  		<div class="skills css">	
+	  			<i class="fab fa-css3-alt"></i>
+	  			<p>CSS</p>
+	  		</div>
+	  		<div class="skills js">
+	  			<i class="fab fa-js-square"></i>
+	  			<p>JavaScript</p>
+	  		</div>
+	  		<div class="skills php">	
+	  			<i class="fab fa-php"></i>
+	  			<p>PHP</p>
+	  		</div>	
+	  		
+	  	</div>
+	  </div>
+
+
+	  <div class="hobby-wrapper">
+	  	<div class="hobby-container">
+	  	<div class="hobby">
+	  		<h2>趣味</h2>
+	  	</div>
+	  	<div class="hobbys soccer">	
+	  		<h3>サッカー</h3>
+	  		<p>小学生からずっとやってきましたが最近はご無沙汰しております。<br/>主にMF、FWをやっていました。当時はスタミナに自信がありましたが今はダメダメです。</p>
+	  	<i class="fas fa-angle-double-left" id="left1"></i>
+	  	<i class="fas fa-angle-double-right" id="right1"></i>	
+	  	</div>
+
+
+	  	<div class="hobbys snow">
+	  		<h3>スノボ</h3>
+	  		<p>大学生になってから始めたのですがメチャクチャ面白いです。<br/>でもゲレンデに乗ってる時間は嫌いです。体冷えちゃうんで。。。</p>
+	  		<i class="fas fa-angle-double-left" id="left2"></i>
+	  		<i class="fas fa-angle-double-right" id="right2"></i>
+	  	</div>
+	  	<div class="hobbys walk">	
+	  		<h3>散歩</h3>
+	  		<p>目的を決めずにぶらぶらするのが性に合っていて。。。<br/>気になった雑貨屋とか古着屋、居酒屋に入って目立たないけど落ち着く、<br/>そんなお気に入りの店を探すのが好きです。</p>
+	  		<i class="fas fa-angle-double-left" id="left3"></i>
+	  		<i class="fas fa-angle-double-right" id="right3"></i>
+	  	</div>	
+
+	  	</div>
+	  </div>
+
+	 
+
+
+	  
+
+
+</body>
+</html>
